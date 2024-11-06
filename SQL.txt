@@ -94,3 +94,18 @@ Select ALL columns -
 E.g. - Return all the columns from the Customers table:
 SELECT * FROM Customers;
 
+---------------------------------------------------------
+
+SQL SELECT DISTINCT Statement
+
+- The SELECT DISTINCT statement is used to return only distinct (different) values.
+
+E.g. - Select all the different countries from the "Customers" table:
+SELECT DISTINCT Country FROM Customers;
+
+Syntax
+SELECT DISTINCT column1, column2, ...
+FROM table_name;
+
+
+
