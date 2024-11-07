@@ -96,7 +96,7 @@ SELECT * FROM Customers;
 
 ---------------------------------------------------------
 
-SQL SELECT DISTINCT Statement
+SQL SELECT DISTINCT Statement -
 
 - The SELECT DISTINCT statement is used to return only distinct (different) values.
 
@@ -106,6 +106,21 @@ SELECT DISTINCT Country FROM Customers;
 Syntax
 SELECT DISTINCT column1, column2, ...
 FROM table_name;
+
+
+
+SELECT Example Without DISTINCT -
+If you omit the DISTINCT keyword, the SQL statement returns the "Country" value from all the records of the "Customers" table:
+
+E.g. -
+SELECT Country FROM Customers;
+
+
+Count Distinct -
+By using the DISTINCT keyword in a function called COUNT, we can return the number of different countries.
+
+E.g. -
+SELECT COUNT(DISTINCT Country) FROM Customers;
 
 
 
