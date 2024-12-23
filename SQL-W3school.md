@@ -49,7 +49,7 @@ RDBMS -
 - RDBMS is the basis for SQL, and for all modern database systems such as MS SQL Server, IBM DB2, Oracle, MySQL, and Microsoft Access.
 - The data in RDBMS is stored in database objects called tables. A table is a collection of related data entries and it consists of columns and rows.
 
->E.g. -  Look at the Custmers table:
+E.g. -  Look at the Custmers table:
 
 ```SQL
 SELECT * FROM Customers;
@@ -61,10 +61,7 @@ SELECT * FROM Customers;
 <br>
 
 
-
-
-
-SQL Syntax - 
+## SQL Syntax - 
 
 SQL Statements
 - Most of the actions you need to perform on a database are done with SQL statements.
@@ -72,10 +69,11 @@ SQL Statements
 - SQL statement returns all records from a table named "Customers":
 
 E.g. - Select all record from the Customers table:
+```SQL
 SELECT * FROM Customers;
+```
 
-* NOTE:-
-Keep in Mind That...
+> NOTE :- Keep in Mind That...
 - SQL keywords are NOT case sensitive: select is the same as SELECT
 - In this tutorial we will write all SQL keywords in upper-case.
 
