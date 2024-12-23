@@ -103,6 +103,18 @@ Some of The Most Important SQL Commands -
 
 
 
+
+#### Continueed
+
+
+
+
+
+
+
+
+
+
 ## SQL SELECT Statement -
 
 - The SELECT statement is used to select data from a database.
@@ -111,13 +123,14 @@ E.g. - Return data from the Customers table:
 SELECT CustomerName, City FROM Customers;
 ```
 
-Syntax - 
+Syntax -
+```
 SELECT column1, column2, ...
 FROM table_name;
-
+```
 
 Select ALL columns - 
-- If you want to return all columns, without specifying every column name, you can use the SELECT * syntax:
+- If you want to return all columns, without specifying every column name, you can use the <b>SELECT * </b> syntax:
 E.g. - Return all the columns from the Customers table:
 SELECT * FROM Customers;
 
