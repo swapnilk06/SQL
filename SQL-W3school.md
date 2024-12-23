@@ -74,15 +74,14 @@ SELECT * FROM Customers;
 ```
 
 > NOTE :- Keep in Mind That...
-- SQL keywords are NOT case sensitive: select is the same as SELECT
-- In this tutorial we will write all SQL keywords in upper-case.
+- SQL keywords are <b>NOT case sensitive</b> : select is the same as SELECT
 
 
-Semicolon after SQL Statements?
+Semicolon after SQL Statements? -
 - Some database systems require a semicolon at the end of each SQL statement.
 - Semicolon is the standard way to separate each SQL statement in database systems that allow more than one SQL statement to be executed in the same call to the server.
 
-Some of The Most Important SQL Commands
+Some of The Most Important SQL Commands -
 - SELECT - extracts data from a database
 - UPDATE - updates data in a database
 - DELETE - deletes data from a database
@@ -95,14 +94,22 @@ Some of The Most Important SQL Commands
 - CREATE INDEX - creates an index (search key)
 - DROP INDEX - deletes an index
 
-------------------------------------------------------------
 
-SQL SELECT Statement -
 
-The SQL SELECT Statement -
+<br>
+
+---------------------------------------------------
+<br>
+
+
+
+## SQL SELECT Statement -
+
 - The SELECT statement is used to select data from a database.
 E.g. - Return data from the Customers table:
+```SQL
 SELECT CustomerName, City FROM Customers;
+```
 
 Syntax - 
 SELECT column1, column2, ...
