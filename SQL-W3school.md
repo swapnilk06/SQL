@@ -1,110 +1,106 @@
+6-1-25
+
 # SQL Tutorial -
 
-- SQL is a standard language for =>  <i>storing, manipulating and retrieving data in databases.</i>
-- Our SQL in: MySQL, SQL Server, MS Access, Oracle, Sybase, Informix, Postgres, and other database systems.
+- SQL is a standard language for `storing, manipulating and retrieving data in databases.`
+- How to use SQL in : MySQL, SQL Server, MS Access, Oracle, Sybase, Informix, Postgres, and other database systems.
 <br>
 
----------------------------------------------------
+Q. Which SQL statement is used to select all records from a table named 'Customers'?
+```sql
+SELECT *FROM Customers;
+```
+
+
+-------
 <br>
 
-## Introduction to SQL -
+## 1] Introduction to SQL :
 
-- SQL is a standard language for <b>accessing and manipulating databases.</b>
+- SQL is a standard language for <b>`accessing` and `manipulating databases`.</b>
 
 ### What is SQL?
 - Structured Query Language
 - SQL lets you access and manipulate databases
+- SQL is an ANSI/ISO standard
+
+<br>
 
 ### What Can SQL do?
-- SQL can execute queries against a database
-- SQL can retrieve data from a database
-- SQL can insert records in a database
-- SQL can update records in a database
-- SQL can delete records from a database
-- SQL can create new databases
-- SQL can create new tables in a database
-- SQL can create stored procedures in a database
-- SQL can create views in a database
-- SQL can set permissions on tables, procedures, and views
+- SQL can `execute queries` against a database
+- SQL can `insert`, `update` records in a database
+- SQL can  `retrieve` data, `delete` records from a database
+- SQL can `create new databases`, `create new tables` in a database
+- SQL can `create stored procedures` in a database
+- SQL can `create views` in a database
+- SQL can `set permissions` on tables, procedures, and views
 
 <br>
------------------------------------
 
-SQL is a Standard - BUT....
-- Although SQL is an ANSI/ISO standard, there are different versions of the SQL language.
-- However, to be compliant with the ANSI standard, they all support at least the major commands (such as SELECT, UPDATE, DELETE, INSERT, WHERE) in a similar manner.
-
------------------------------------<br>
-
-
-### Using SQL in Web Site - 
-To build a web site that shows data from a database, you will need:
+### Using SQL in Web Site
+To build a web site that shows data from a database, you will need :
 - An RDBMS database program (i.e. MS Access, SQL Server, MySQL)
-- To use a server-side scripting language, like PHP or ASP
-- To use SQL to get the data you want
+- To use a `server-side scripting language`, like PHP or ASP
+- To use SQL to `get the data` you want
 - To use HTML / CSS to style the page
 
-RDBMS - 
-- <b>Relational Database Management System.</b>
-- RDBMS is the basis for SQL, and for all modern database systems such as MS SQL Server, IBM DB2, Oracle, MySQL, and Microsoft Access.
-- The data in RDBMS is stored in database objects called tables. A table is a collection of related data entries and it consists of columns and rows.
+<br>
+
+### RDBMS - <b>Relational Database Management System.</b>
+- RDBMS is the "basis for SQL", and for all modern database systems such as MS SQL Server, IBM DB2, Oracle, MySQL, and Microsoft Access.
+- The data in RDBMS is stored in database objects called `tables`. A table is a collection of related data entries and it consists of columns and rows.
+
+<br>
 
 E.g. -  Look at the Custmers table:
-
-```SQL
+```sql
 SELECT * FROM Customers;
 ```
 
+-------
 <br>
 
----------------------------------------------------
-<br>
 
+## 2] SQL Syntax :
 
-## SQL Syntax - 
-
-SQL Statements
+### SQL Statements -
 - Most of the actions you need to perform on a database are done with SQL statements.
-- SQL statements consist of keywords that are easy to understand.
-- SQL statement returns all records from a table named "Customers":
+- Below SQL statement returns all records from a table named "Customers".
 
 E.g. - Select all record from the Customers table:
-```SQL
+```sql
 SELECT * FROM Customers;
 ```
 
-> NOTE :- Keep in Mind That...
-- SQL keywords are <b>NOT case sensitive</b> : select is the same as SELECT
+> NOTE* : Keep in Mind That...
+- SQL keywords are <b>"NOT case sensitive"</b> : `select` is the same as `SELECT`.
 
 
-Semicolon after SQL Statements? -
+### Semicolon after SQL Statements? -
 - Some database systems require a semicolon at the end of each SQL statement.
 - Semicolon is the standard way to separate each SQL statement in database systems that allow more than one SQL statement to be executed in the same call to the server.
 
-Some of The Most Important SQL Commands -
-- SELECT - extracts data from a database
-- UPDATE - updates data in a database
-- DELETE - deletes data from a database
-- INSERT INTO - inserts new data into a database
-- CREATE DATABASE - creates a new database
-- ALTER DATABASE - modifies a database
-- CREATE TABLE - creates a new table
-- ALTER TABLE - modifies a table
-- DROP TABLE - deletes a table
-- CREATE INDEX - creates an index (search key)
-- DROP INDEX - deletes an index
+
+### Some of The Most Important SQL Commands -
+- `SELECT` - extracts data from a database
+- `UPDATE` - updates data in a database
+- `DELETE` - deletes data from a database
+- `INSERT INTO` - inserts new data into a database
+- `CREATE DATABASE` - creates a new database
+- `ALTER DATABASE` - modifies a database
+- `CREATE TABLE` - creates a new table
+- `ALTER TABLE` - modifies a table
+- `DROP TABLE` - deletes a table
+- `CREATE INDEX` - creates an index (search key)
+- `DROP INDEX` - deletes an index
 
 
 
+-------
 <br>
 
----------------------------------------------------
-<br>
 
-
-
-
-#### Continueed
+## 3] SQL Select :
 
 
 
