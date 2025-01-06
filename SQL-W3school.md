@@ -57,11 +57,10 @@ E.g. -  Look at the Custmers table:
 SELECT * FROM Customers;
 ```
 
--------
 <br>
 
 
-## 2] SQL Syntax :
+## SQL Syntax :
 
 ### SQL Statements -
 - Most of the actions you need to perform on a database are done with SQL statements.
@@ -100,26 +99,15 @@ SELECT * FROM Customers;
 <br>
 
 
-## 3] SQL Select :
+## 3] SQL SELECT Statement :
+- The `SELECT` statement is used to select data from a database.
 
-
-
-
-
-
-
-
-
-
-## SQL SELECT Statement -
-
-- The SELECT statement is used to select data from a database.
-E.g. - Return data from the Customers table:
-```SQL
+- E.g. Return data from the Customers table:
+```sql
 SELECT CustomerName, City FROM Customers;
 ```
 
-Syntax -
+- Syntax :
 ```
 SELECT column1, column2, ...
 FROM table_name;
