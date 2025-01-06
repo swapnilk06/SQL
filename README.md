@@ -1,3 +1,10 @@
 6-1-25
 
-### SQL from W3 School
+# SQL Tutorial from W3 School
+
+#### Timeline -
+----
+
+### 1] Introduction to SQL
+### 2] SQL Syntax
+### 3] SQL SELECT statement
