@@ -1,9 +1,10 @@
-6-1-25
+# SQL Tutorial 
+W3 School
+<br>
+<br>
+## Working Timeline :
 
-# SQL Tutorial from W3 School
-
-#### Timeline -
-----
+`[6-1-25]`
 
 ### 1] Introduction to SQL
 ### 2] SQL Syntax
